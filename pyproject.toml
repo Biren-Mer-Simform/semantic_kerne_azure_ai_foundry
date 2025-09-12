@@ -1,5 +1,5 @@
 [project]
-name = "semantic-kerne-azure-ai-foundry"
+name = "semantic_kerne_azure_ai_foundry"
 version = "0.1.0"
 description = ""
 authors = [
@@ -13,6 +13,10 @@ dependencies = [
     "semantic-kernel (>=1.36.2,<2.0.0)"
 ]
 
+[tool.poetry]
+name = "semantic_kerne_azure_ai_foundry"
+version = "0.1.0"
+packages = [{ include = "basic" }]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
